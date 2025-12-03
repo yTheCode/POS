@@ -1,4 +1,7 @@
 package POS;
 
-public class FoodItem {
+public class FoodItem extends Product {
+    public FoodItem(String name, double price) {
+        super(name, price);
+    }
 }
